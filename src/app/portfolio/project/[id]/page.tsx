@@ -49,11 +49,11 @@ const page = () => {
       </div>
 
       <div>
-        <div>
+        {/* <div>
           {item.map((item, index) => (
             <InfoCard key={index} info={item} />
           ))}
-        </div>
+        </div> */}
         <div>
           {/* <h1>Project Description</h1>
           <p>{projectsData[0].projectDescription}</p>
