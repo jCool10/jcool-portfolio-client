@@ -75,7 +75,7 @@ export const SkillsData = {
       image: '/assets/react-query-icon.png'
     },
     {
-      title: 'Material UI',
+      title: 'MaterialUI',
       image: '/assets/material.png'
     },
     {

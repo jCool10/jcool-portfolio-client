@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <BottomNavigation
-      className='rounded-[var(--radius-20)_var(--radius-20)_0_0] shadow-[var(--box-shadow-30)] flex items-center justify-center fixed h-[3.8125rem] w-full z-[1112]  right-0 bottom-0 lg:w-[500px] lg:rounded-[0_var(--radius-20)_0_var(--radius-20)] lg:h-[4.375rem] lg:absolute lg:z-10 lg:px-[2.375rem] lg:py-0 lg:right-0 lg:top-0  '
+      className='rounded-[var(--radius-20)_var(--radius-20)_0_0] shadow-[var(--box-shadow-30)] flex items-center justify-center fixed h-[3.8125rem] z-[1112] w-full right-0 bottom-0 lg:w-[400px] lg:rounded-[0_var(--radius-20)_0_var(--radius-20)] lg:h-[4.375rem] lg:absolute lg:z-10 lg:px-[2.375rem] lg:py-0 lg:right-0 lg:top-0  '
       value={value}
       onChange={handleChange}
     >

@@ -29,7 +29,7 @@ function Resume() {
       >
         <ListItem className='flex flex-col pt-6 my-2 shadow-50 bg-white/20 rounded-2xl' alignItems='flex-start'>
           <h2 className='mb-2 text-2xl font-medium '>Languages</h2>
-          <div className='grid w-full grid-cols-3 lg:grid-cols-5'>
+          <div className='grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
             {SkillsData.languages.map((item, index) => (
               <SkillCard key={index} {...item} />
             ))}
@@ -38,7 +38,7 @@ function Resume() {
 
         <ListItem className='flex flex-col pt-6 my-2 shadow-50 bg-white/20 rounded-2xl' alignItems='flex-start'>
           <h2 className='mb-2 text-2xl font-medium'>Front-end</h2>
-          <div className='grid w-full grid-cols-3 lg:grid-cols-5 '>
+          <div className='grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-5 '>
             {SkillsData.webDevelopment.map((item, index) => (
               <SkillCard key={index} {...item} />
             ))}
@@ -47,7 +47,7 @@ function Resume() {
 
         <ListItem className='flex flex-col pt-6 my-2 shadow-50 bg-white/20 rounded-2xl' alignItems='flex-start'>
           <h2 className='mb-2 text-2xl font-medium'>Back-end</h2>
-          <div className='grid w-full grid-cols-3 lg:grid-cols-5'>
+          <div className='grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
             {SkillsData.backend.map((item, index) => (
               <SkillCard key={index} {...item} />
             ))}
@@ -56,7 +56,7 @@ function Resume() {
 
         <ListItem className='flex flex-col pt-6 my-2 shadow-50 bg-white/20 rounded-2xl' alignItems='flex-start'>
           <h2 className='mb-2 text-2xl font-medium'>Tools</h2>
-          <div className='grid w-full grid-cols-3 lg:grid-cols-5'>
+          <div className='grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
             {SkillsData.tools.map((item, index) => (
               <SkillCard key={index} {...item} />
             ))}

@@ -10,7 +10,7 @@ const Logo = ({ title = 'Home' }: Props) => {
   return (
     <Link href='/' className='flex items-center gap-2'>
       <Image src='/logo.png' width={200} height={100} alt='JCool' />
-      <span className='text-5xl font-extrabold text-white capitalize border-s-4 ps-2'> {title}</span>
+      <span className='hidden text-5xl font-extrabold text-white capitalize border-s-4 ps-2 lg:block'> {title}</span>
     </Link>
   )
 }
